@@ -1,37 +1,27 @@
 import { NavLink } from 'react-router-dom'
+import Logo from '/Users/peidongchen/Projects/YREG/public/YREG Logo.jpg'
 
 const Navbar = () => {
   return (
-    <header className="header">
-        <NavLink to="/" className="">
-            <p> YREG </p>
-        
-        </NavLink>
-        <nav>
-            <NavLink to="/About_Us">
-                About Us
+    <header className="header justify-between flex bg-blue-1">
+        <div className="h-24 w-32 overflow-hidden">
+            <NavLink to="/" className="">
+                <img className="h-24 w-32 object-cover" style={{ transform: 'translateY(2px)' }} src={Logo}></img>
+            
             </NavLink>
-            <NavLink to="/Join_Us">
+        </div>
+        <nav className="flex space-x-12 px-8 items-center">
+            <NavLink to="/About_Us" className= {({ isActive }) => isActive ? "text-yellow-1" : "text-white hover:text-yellow-1"}>
+                About
+            </NavLink>
+            <NavLink to="/Join_Us" className= {({ isActive }) => isActive ? "text-yellow-1" : "text-white hover:text-yellow-1"}>
                 Join Us
             </NavLink>
-            <NavLink to="/Contact">
+            <NavLink to="/Contact" className={({ isActive }) => isActive ? "text-[#c4b470]" : "text-white hover:text-yellow-1"}>
                 Contact
             </NavLink>
         </nav>
     </header>
-
-    // <nav className="bg-blue-600 p-4">
-    //   <div className="container mx-auto flex justify-between">
-    //     <h1 className="text-white text-2xl font-bold">Yale Real Estate Group</h1>
-    //     <ul className="flex space-x-4">
-    //       <li><Link className="text-white hover:text-gray-300" to="/">Home</Link></li>
-    //       <li><Link className="text-white hover:text-gray-300" to="/about">About Us</Link></li>
-    //       <li><Link className="text-white hover:text-gray-300" to="/join">Join Us</Link></li>
-    //       <li><Link className="text-white hover:text-gray-300" to="/contact">Contact Us</Link></li>
-    //       <li><Link className="text-white hover:text-gray-300" to="/team">Team Members</Link></li>
-    //     </ul>
-    //   </div>
-    // </nav>
   );
 };
 
