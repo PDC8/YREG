@@ -7,7 +7,7 @@ import Contact from './components/Contact'
 
 const App = () => {
   return (
-    <main className="bg-slate-300/20">
+    <main className="bg-slate-300/20 min-h-screen">
         <Router>
             <Navbar />
             <Routes>
@@ -17,7 +17,7 @@ const App = () => {
               <Route path="/Contact" element={<Contact />} />
             </Routes>
         </Router>
-    </main>
+    </main>   
   )
 }
 

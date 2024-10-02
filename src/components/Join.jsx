@@ -7,6 +7,7 @@ const Join = () => {
       <img src="https://via.placeholder.com/800x400" alt="Join Us" className="mt-4 rounded" />
       <p className="mt-4">Become a member to access exclusive events and resources!</p>
     </div>
+    
   )
 }
 

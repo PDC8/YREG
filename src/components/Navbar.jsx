@@ -18,7 +18,7 @@ const Navbar = () => {
                 Join Us
             </NavLink>
             <NavLink to="/Contact" className={({ isActive }) => isActive ? "text-[#c4b470]" : "text-white hover:text-yellow-1"}>
-                Contact
+                Team
             </NavLink>
         </nav>
     </header>
