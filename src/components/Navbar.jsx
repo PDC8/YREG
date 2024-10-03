@@ -17,10 +17,10 @@ const Navbar = () => {
             <NavLink to="/Join_Us" className= {({ isActive }) => isActive ? "text-yellow-1" : "text-white hover:text-yellow-1"}>
                 Join Us
             </NavLink>
-            <NavLink to="/Team" className={({ isActive }) => isActive ? "text-[#c4b470]" : "text-white hover:text-yellow-1"}>
+            <NavLink to="/Team" className={({ isActive }) => isActive ? "text-yellow-1" : "text-white hover:text-yellow-1"}>
                 Team
             </NavLink>
-            <NavLink to="/Contact" className={({ isActive }) => isActive ? "text-[#c4b470]" : "text-white hover:text-yellow-1"}>
+            <NavLink to="/Contact" className={({ isActive }) => isActive ? "text-yellow-1" : "text-white hover:text-yellow-1"}>
                 Contact
             </NavLink>
         </nav>
