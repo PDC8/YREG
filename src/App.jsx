@@ -4,6 +4,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Join from './components/Join'
 import Team from './components/Team'
+import Contact from './components/Contact'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
               <Route path="/About_Us" element={<About />} />
               <Route path="/Join_Us" element={<Join />} />
               <Route path="/Team" element={<Team />} />
+              <Route path="/Contact" element={<Contact />} />
             </Routes>
         </Router>
     </main>   
