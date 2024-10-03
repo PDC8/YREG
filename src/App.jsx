@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
 import Join from './components/Join'
-import Contact from './components/Contact'
+import Team from './components/Team'
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
               <Route path="/" element={<Home/>} />
               <Route path="/About_Us" element={<About />} />
               <Route path="/Join_Us" element={<Join />} />
-              <Route path="/Contact" element={<Contact />} />
+              <Route path="/Team" element={<Team />} />
             </Routes>
         </Router>
     </main>   
