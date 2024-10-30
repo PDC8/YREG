@@ -18,7 +18,10 @@ export default {
           1: 'f9f9f9',
           2: '#dddddd',
         }
-      }
+      },
+      fontFamily: {
+        sans: ['"Times New Roman"', 'serif'],
+      },
     },
   },
   plugins: [],

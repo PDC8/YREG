@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import Logo from '/Users/peidongchen/Projects/YREG/public/YREG Logo.jpg'
+import Logo from '/Users/peidongchen/Projects/YREG/public/YREG-Logo.webp'
 
 const Navbar = () => {
   return (
