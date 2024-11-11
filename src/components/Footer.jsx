@@ -7,7 +7,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const Footer = () => {
     return (
-        <div className="bg-blue-1">
+        <div className="bg-blue-1 min-w-[1120px]">
             <div className="flex justify-between mx-8 text-white">
                 <p className="text-sm mt-4">
                     © {new Date().getFullYear()} by Yale Real Estate Group
