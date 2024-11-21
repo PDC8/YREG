@@ -33,7 +33,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="justify-around mb-16 flex overflow-x-auto">
+            <div className="justify-around mb-16 flex overflow-x-auto items-center">
                 <h2 className="text-4xl text-nowrap font-bold mb-6">Who <br />We Are</h2>
                 <p className="text-lg text-gray-700 w-[500px]">
                 Yale Real Estate Group (YREG) is Yale's first and only real estate organization on campus.
@@ -75,7 +75,7 @@ const Home = () => {
             </div>
 
             <div>
-                <h2 className= "text-4xl text-center"> After YREG</h2>
+                <h2 className= "text-4xl font-bold text-center"> After YREG</h2>
             </div>
         </div>
     );
