@@ -17,7 +17,7 @@ const Join = () => {
 
             <div className="grid grid-cols-3">
                 {timeline.map((event, index) => (
-                    <React.Fragment key={index}>
+                    <>
                         {/* Left Column */}
                         {index % 2 == 0 ? (
                             <div className="col-span-1 flex flex-col justify-center text-right pr-4">
@@ -55,7 +55,7 @@ const Join = () => {
                         ) : (
                             <div className="col-span-1"></div> // Blank Box
                         )}
-                    </React.Fragment>
+                    </>
                 ))}
             </div>
 
@@ -64,7 +64,7 @@ const Join = () => {
             </button>
 
             {/*Add More*/}
-            
+
         </div>
     );
 };

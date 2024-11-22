@@ -18,6 +18,21 @@ const firm_visits = [
     
   ];
 
+  const after_yreg = [
+    {
+        name: 'KKR',
+        logo: KKR,
+    },
+    {
+        name: 'Blackstone',
+        logo: Blackstone,
+    },
+    {
+        name: 'Tishman Speyer',
+        logo: Tishman,
+    }
+    
+  ];
 const Home = () => {
     return (
         <div>
