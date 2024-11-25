@@ -2,6 +2,7 @@ import React from 'react';
 import KKR from '/Users/peidongchen/Projects/YREG/public/KKR-Logo.webp'
 import Blackstone from '/Users/peidongchen/Projects/YREG/public/Blackstone-Logo.webp'
 import Tishman from '/Users/peidongchen/Projects/YREG/public/Tishman-Logo.webp'
+import Photo from '/Users/peidongchen/Projects/YREG/public/KKR/IMG_9392.jpeg'
 const firm_visits = [
     {
         name: 'KKR',
@@ -57,7 +58,7 @@ const Home = () => {
         <div>
             <div className="relative overflow-x-auto mb-16">
                 <img 
-                    src="https://static.wixstatic.com/media/10a932_04022d2d4fdb4eedaba071d09954f903~mv2.jpg/v1/fill/w_2752,h_1380,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/10a932_04022d2d4fdb4eedaba071d09954f903~mv2.jpg"
+                    src={Photo}
                     className=" min-h-[630px] w-full h-auto object-cover rounded-lg mb-8"
                 />
                 <div className="absolute bottom-32 left-24 flex">
@@ -122,7 +123,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="mb-16">
+            <div>
                 <h2 className= "text-4xl font-bold text-center"> After YREG</h2>
                 <div className="flex flex-wrap justify-center gap-8">
                     {after_yreg.map((company, index) => (

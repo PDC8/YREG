@@ -8,15 +8,15 @@ import Contact from './components/Contact'
 
 const App = () => {
   return (
-    <main className="bg-slate-300/20 min-h-screen min-w-[1120px]">
+    <main className="bg-slate-300/200 min-h-screen min-w-[1120px] h-auto">
         <Router>
             <Navbar />
             <Routes>
-              <Route path="/" element={<Home/>} />
-              <Route path="/About_Us" element={<About />} />
-              <Route path="/Join_Us" element={<Join />} />
-              <Route path="/Team" element={<Team />} />
-              <Route path="/Contact" element={<Contact />} />
+              <Route path="/YREG" element={<Home/>} />
+              <Route path="/YREG/About_Us" element={<About />} />
+              <Route path="/YREG/Join_Us" element={<Join />} />
+              <Route path="/YREG/Team" element={<Team />} />
+              <Route path="/YREG/Contact" element={<Contact />} />
             </Routes>
         </Router>
     </main>   

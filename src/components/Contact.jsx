@@ -63,8 +63,8 @@ const Contact = () => {
     };
 
     return (
-        <div className="text-center mt-20">
-            <h1>Contact Us</h1>
+        <div className="text-center mt-16">
+            <h1 className="text-4xl mb-8">Contact Us</h1>
             {submitted ? (
                 <p>Thank you for your message. We will get back to you soon!</p>
             ) : (
@@ -77,6 +77,7 @@ const Contact = () => {
                         value={formData.name}
                         onChange={handleChange}
                         required
+                        className="w-[500px] h-16 px-4 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-1 mb-1"
                         />
                     </div>
 
@@ -88,6 +89,7 @@ const Contact = () => {
                         value={formData.email}
                         onChange={handleChange}
                         required
+                        className="w-[500px] h-16 px-4 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-1 mb-1"
                         />
                     </div>
 
@@ -99,6 +101,7 @@ const Contact = () => {
                         value={formData.subject}
                         onChange={handleChange}
                         required
+                        className="w-[500px] h-16 px-4 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-1 mb-1"
                         />
                     </div>
 
@@ -109,6 +112,7 @@ const Contact = () => {
                         value={formData.message}
                         onChange={handleChange}
                         required
+                        className="w-[500px] h-56 px-4 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-1 mb-1"
                         ></textarea>
                     </div>
 
@@ -116,7 +120,7 @@ const Contact = () => {
 
                     <button 
                     type="submit"
-                    className="bg-blue-500 text-white rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-300"
+                    className="bg-blue-1 text-white rounded hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-300 w-32 h-8"
                     >
                         Send Message
                     </button>

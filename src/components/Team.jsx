@@ -44,7 +44,7 @@ const teamMembers = [
 
 const Team = () => {
   return (
-    <div className="mt-16 bg-gray-100">
+    <div className="mt-16">
         <h2 className="text-3xl font-semibold mb-16 text-center">
             Meet The Board
         </h2>
