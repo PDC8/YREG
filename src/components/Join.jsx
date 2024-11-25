@@ -34,12 +34,12 @@ const Join = () => {
                         {/* Middle Column (Timeline) */}
                         <div className="col-span-1 flex flex-col items-center relative">
                             {/* Dot */}
-                            <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-500 text-white flex items-center justify-center text-lg font-bold z-10">
+                            <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-1 text-white flex items-center justify-center text-lg font-bold z-10">
                                 {index + 1}
                             </div>
                             {/* Line */}
                             {index < timeline.length && (
-                                <div className="h-40 w-1 bg-green-500"></div>
+                                <div className="h-40 w-1 bg-blue-1"></div>
                             )}
                         </div>
 
@@ -59,7 +59,7 @@ const Join = () => {
                 ))}
             </div>
 
-            <button type="submit" className="w-80 h-20 bg-blue-500 text-white hover:bg-blue-600 focus:ring-2 focus:ring-blue-300 mb-20">
+            <button type="submit" className="w-80 h-20 bg-blue-1 text-white hover:bg-blue-500 focus:ring-2 focus:ring-blue-300 mb-20">
                     Apply Here
             </button>
 

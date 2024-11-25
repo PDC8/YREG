@@ -55,7 +55,7 @@ const events = [
 const Home = () => {
     return (
         <div>
-            <div className="relative overflow-x-auto">
+            <div className="relative overflow-x-auto mb-16">
                 <img 
                     src="https://static.wixstatic.com/media/10a932_04022d2d4fdb4eedaba071d09954f903~mv2.jpg/v1/fill/w_2752,h_1380,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/10a932_04022d2d4fdb4eedaba071d09954f903~mv2.jpg"
                     className=" min-h-[630px] w-full h-auto object-cover rounded-lg mb-8"
@@ -92,8 +92,8 @@ const Home = () => {
                 </div>
             </div>
 
-            <div>
-                <h2 className="text-4xl font-bold text-center">Upcoming Events</h2>
+            <div className="mb-16">
+                <h2 className="text-4xl font-bold text-center mb-8">Upcoming Events</h2>
                 <div className="flex flex-wrap justify-center gap-8 mt-4">
                     {events.map((event, index) => (
                         <div 
@@ -106,7 +106,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div>
+            <div className="mb-16">
                 <h2 className= "text-4xl font-bold text-center"> Recent Firm Visits</h2>
                 
                 <div className="flex flex-wrap justify-center gap-8">
@@ -122,7 +122,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div>
+            <div className="mb-16">
                 <h2 className= "text-4xl font-bold text-center"> After YREG</h2>
                 <div className="flex flex-wrap justify-center gap-8">
                     {after_yreg.map((company, index) => (
