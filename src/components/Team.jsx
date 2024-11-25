@@ -22,7 +22,7 @@ const teamMembers = [
     linkedin: '',
   },
   {
-    name: 'Bradely',
+    name: 'Bradley',
     title: 'position',
     image: 'https://via.placeholder.com/150',
     linkedin: '',
